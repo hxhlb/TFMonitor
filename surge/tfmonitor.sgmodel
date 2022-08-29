@@ -1,0 +1,10 @@
+#!name=TF监控
+#!desc=监控TF空位释放
+#!openUrl=https://github.com/hxhlb/TFMonitor
+#!author=@BANANA
+#!homepage=https://github.com/hxhlb/TFMonitor
+#!manual=https://github.com/hxhlb/TFMonitor
+#!icon=https://cdn.jsdelivr.net/gh/NobyDa/mini@master/Color/testflight.png
+
+[Script]
+Pixiv Show = type=cron,cronexp=0 0/30 * * * ?,script-path=https://raw.githubusercontent.com/hxhlb/TFMonitor/master/js/testflight.js,script-update-interval=43200

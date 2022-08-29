@@ -1,0 +1,42 @@
+{
+    "id": "banana.tfmonotor.sub",
+    "name": "TF订阅监控",
+    "author": "@banana",
+    "icon": "https://cdn.jsdelivr.net/gh/NobyDa/mini@master/Color/testflight.png",
+    "repo": "https://github.com/hxhlb/TFMonitor",
+    "apps": [
+        {
+            "id": "tfmonitor",
+            "name": "TF订阅监控",
+            "keys": [],
+            "settings": [
+                {
+                    "id": "appkey",
+                    "name": "监控appkey",
+                    "val": "",
+                    "type": "textarea",
+                    "placeholder": "VCIvwk2g,1SyedSId",
+                    "autoGrow": true,
+                    "rows": 1,
+                    "desc": "以英文逗号分隔多个key"
+                },
+                {
+                    "id": "testflight_isnotify",
+                    "name": "是否静默通知",
+                    "val": "",
+                    "type": "boolean",
+                    "placeholder": "true or false",
+                    "autoGrow": true,
+                    "rows": 1,
+                    "desc": "没有tf位置将不会通知"
+                }
+            ],
+            "author": "@banana",
+            "repo": "https://github.com/hxhlb/TFMonitor/blob/master/js/testflight.js",
+            "icons": [
+                "https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png",
+                "https://raw.githubusercontent.com/Orz-3/task/master/testflight.png"
+            ]
+        }
+    ]
+}
