@@ -7,4 +7,4 @@
 #!icon=https://cdn.jsdelivr.net/gh/NobyDa/mini@master/Color/testflight.png
 
 [Script]
-Pixiv Show = type=cron,cronexp=0 0/30 * * * ?,script-path=https://raw.githubusercontent.com/hxhlb/TFMonitor/master/js/testflight.js,script-update-interval=43200
+TFMonitor = type=cron,cronexp=0 0/30 * * * ?,script-path=https://raw.githubusercontent.com/hxhlb/TFMonitor/master/js/testflight.js,script-update-interval=43200
